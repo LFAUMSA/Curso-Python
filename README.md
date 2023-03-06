@@ -22,9 +22,17 @@ https://psl.noaa.gov/data/gridded
 * NASA (National Aeronautics and Space Administration)
 GRACE: https://nasagrace.unl.edu
 
-## 2. Instalación de miniconda
-Es preferible instalar las bibliotecas necesarias via Anaconda. Para instalar Anaconda,basta colocar los siguientes comendas en la terminal:
+## 2. Instalación de miniconda o anaconda
+## 2.1 Anaconda
+¿Por qué Anaconda o miniconda?
 
+Se recomienda trabajar con Anaconda ya que en el mismo se pueden crear ambientes de trabajo específicos para cada tarea e instalar solamente los paquetes necesarios para la misma sin afectar al resto de los programas instalados en el PC.
+Para la instalación se puede seguir la siguiente guia:
+
+* https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+
+Es preferible instalar las bibliotecas necesarias via Anaconda. Para instalar Anaconda,basta colocar los siguientes comandos en la terminal:
+## 2.2 MIniconda 
 * curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 * bash Miniconda3-latest-Linux-x86_64.sh
@@ -126,6 +134,7 @@ Existen varias maneras de llamar las librerias, se puede crear un archivo con ex
 el formato del archivo .ylm debe ser:
 
 name: lfa
+
 channels:
   - conda-forge
   - ncar
