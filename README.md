@@ -329,4 +329,29 @@ Y al final, ¿qué es un objeto? Un objeto se compone de atributos, que son bás
 
 ![tormenta](https://user-images.githubusercontent.com/101900012/223220348-08070b23-1eb5-4985-be36-f0669edff947.png)
 
+En el caso de numpy.ndarray u otros objetos que veremos a lo largo del curso esto se vuelve más abstracto. Por ejemplo, la matriz de `numpy` tiene algunos atributos como forma para mostrar el tamaño y ndim para mostrar el número de dimensiones.
 
+```python
+print(tc_arr.shape)  # tamaño array  
+```
+
+(4,)
+
+```python
+print(tc_arr.ndim) # dimensión del array
+```
+1 
+
+Asi, como algunos métodos como `mean` para calcular la média e `std` para calcular la desviación estándar
+
+```python
+print(tc_arr.mean()) # média del array
+```
+
+22.125
+
+```python
+print(tc_arr.std()) # desviación del array
+```
+
+7.90865823006659
