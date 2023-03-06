@@ -39,3 +39,7 @@ Debe reiniciar la maquina para que los cambios sean hechos:
 * Ejemplo: creacion del ambiente llamado lfa
 
 conda create --name lfa
+
+### 2.3 ver lista de programas instalados
+
+* conda list
