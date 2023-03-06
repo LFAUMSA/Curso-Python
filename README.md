@@ -304,3 +304,10 @@ print(tk)
 
 [308.15, 295.15, 290.15, 287.65]
 
+
+También podemos usar la biblioteca `numpy` que nos permite hacer cálculos de forma vectorizada. Para importar un paquete hacemos
+
+```
+import numpy as np
+
+```
