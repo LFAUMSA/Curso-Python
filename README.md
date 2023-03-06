@@ -85,9 +85,16 @@ Exemplo:
 * conda install -c conda-forge nco
 * conda install -c conda-forge wgrib2
 
-### 2.8 Instalación de una version especifica de um programa
+### 2.8 Instalación de una versión especifica de um programa
 
 * conda install <nonbre_programa>=<version_programa>
 Ejemplo: Instalar la versión de cdo 1.9.9.
 
 * conda install cdo=1.9.9
+### 2.9 Actualizar una libreria 
+
+* conda update <nombre_libreria>
+
+### 2.10 desinstalar una libreria 
+
+* conda remove --force <nombre_libreria>
