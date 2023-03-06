@@ -98,3 +98,26 @@ Ejemplo: Instalar la versión de cdo 1.9.9.
 ### 2.10 desinstalar una libreria 
 
 * conda remove --force <nombre_libreria>
+
+## 3. Lista de bibliotecas que serán instalados
+
+Los codigos son ejecutables correctam,ente con las bibiotecas listadas abajo, basta digitar estos comandos en la terminal:
+
+* pip install matplotlib==3.4.3
+* pip install pandas==1.4.2
+* pip install SkillMetrics==1.1.8
+* pip install proplot==0.9.4
+* pip install xarray==2022.3.0
+* pip install netcdf4==1.5.8
+* pip install esmtools==1.1.3
+* pip install cartopy==0.20.2
+* pip install yellowbrick==1.4
+* pip install seaborn==0.11.2
+* pip install windrose==1.6.8
+* pip install climate-indices==1.0.10
+* pip install salem==0.3.7
+* pip install geopandas==0.10.2
+* pip install rasterio==1.2.10
+* pip install siphon==0.9
+* pip install metpy==1.3.0
+
