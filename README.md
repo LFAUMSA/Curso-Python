@@ -172,7 +172,7 @@ dependencies:
 	*JUPYTER NOTEBOOKS
 	*GOOGLE COLABORATORY (COLAB)
 	
-  # Clase 1
+  # 4. Clase 1
   
   En esta clase veremos los comandos basicos de python:
   
@@ -185,3 +185,6 @@ dependencies:
   * Lista
   
   * Matrizes con NUMPY 
+
+    # 4.1 Librerias
+	* Numpy es una libreria dundamental para computación en Python, contiene un poderoso manejo de matrices en N dimensiones, herramientas para integrar con C/C++ y Fortran como capacidad para realizar calculos en algebra lineal, transformada de Fourier, etc.
