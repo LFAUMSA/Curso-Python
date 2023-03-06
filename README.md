@@ -281,3 +281,5 @@ tk = convert_temp(tc, 'celsius', 'keuvin')
 ```
 
 No conversion found from celsius to keuvin.
+
+¿Qué pasa si queremos convertir más de un valor? Podemos usar una lista para definir los valores y un `for para aplicar la función a cada uno de ellos
