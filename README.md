@@ -192,7 +192,10 @@ dependencies:
 	Vamos a comenzar viendo comandos basicos de Pthon convirtiendo datos de temeratura en escala Celsius, Farenheit e Kelvin.
 	
 ```python
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+# valor de temperatura em celsius
+tc = 35.1
+# para converter para kelvin
+tk = tc + 273.15
+
+print(tk)
 ```
