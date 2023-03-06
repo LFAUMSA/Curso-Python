@@ -95,7 +95,7 @@ Exemplo:
 
 ### 2.2.8 Instalación de una versión especifica de um programa
 
-* conda install <nonbre_programa>=<version_programa>
+* conda install <nombre_programa>=<version_programa>
 Ejemplo: Instalar la versión de cdo 1.9.9.
 
 * conda install cdo=1.9.9
@@ -158,8 +158,8 @@ dependencies:
   - matplotlib-inline=0.1.2
   
   Una vez que se tenga un archivo .yml se puede crear el ambiente siguiendo los siguientes pasos por terminal:
-  
-   * cd <carpeta donde esta el programa gui_wrf_wind.py>
+    
+        * cd <carpeta donde esta el programa gui_wrf_wind.py>
   
 	* conda activate base
   
@@ -169,8 +169,8 @@ dependencies:
 	
   RESULTA MUY UTIL PARA PERSONAS QUE NO QUIEREN INSTALAR NADA EN SUS PC'S O NO ESTAN FAMILIARIZADOS CON EL SISTEMA OPERATIVO LINUX USAR :
 	
-	*JUPYTER NOTEBOOKS
-	*GOOGLE COLABORATORY (COLAB)
+	* JUPYTER NOTEBOOKS
+	* GOOGLE COLABORATORY (COLAB)
 	
   # 4. Clase 1
   
