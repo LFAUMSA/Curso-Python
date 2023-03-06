@@ -325,7 +325,7 @@ print(tk_arr)
 
 [308.15 295.15 290.15 287.65]
 
-Y al final, ¿qué es un objeto? Un objeto se compone de atributos, que son básicamente características del objeto, así como de métodos, que son cosas que le pedimos que haga al objeto. En el ejemplo de la figura a continuación, vemos algunos atributos del objeto Perrito, como el nombre, la raza y el tamaño, así como algunos métodos como 'buscar' (=buscar) y 'hacerse el muerto' (=hacerse el muerto). La estructura básica de un objeto se da a continuación.
+Y al final, ¿qué es un objeto? Un objeto se compone de atributos, que son básicamente características del objeto, así como de métodos, que son cosas que le pedimos que haga al objeto. En el ejemplo de la figura a continuación, vemos algunos atributos del objeto Perrito, como el nombre, la raza y el tamaño, así como algunos métodos como 'buscar' (=fetch) y 'hacerse el muerto' (=play_dead). La estructura básica de un objeto se da a continuación.
 
 ![tormenta](https://user-images.githubusercontent.com/101900012/223220348-08070b23-1eb5-4985-be36-f0669edff947.png)
 
