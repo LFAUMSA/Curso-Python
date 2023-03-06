@@ -4,9 +4,7 @@ Este curso tiene como objetivo enseñar Python para el publico orientado en Cien
 
 Se realizará analisis a partir de datos de principales centros meterologicos que nos brindan sugerencias de manipulación de estos datos, asi como su visualización. Los codigos seran comentados para facilitar el aprendizaje.
 
-LOs datos utilizados serán:
-
-## INPE (Instituto Nacional de Pesquisas Espaciais)
+Los datos utilizados serán:
 
 * Programa Queimadas: https://queimadas.dgi.inpe.br/queimadas/portal
 
