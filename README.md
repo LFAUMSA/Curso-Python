@@ -35,7 +35,6 @@ Debe reiniciar la maquina para que los cambios sean hechos:
 * conda update -n base -c defaults conda
 ### 2.2 Crear un nuevo ambiente virtual
 * conda create --name <nombre_ambiente>
-* 
 * Ejemplo: creacion del ambiente llamado lfa
 
 conda create --name lfa
@@ -43,3 +42,8 @@ conda create --name lfa
 ### 2.3 ver lista de programas instalados
 
 * conda list
+### 2.4 desactivar un ambiente virtual
+
+* conda deactivate
+
+Al realizar eso, el usuario de ambiente virtual cambiara al ambiente normal (base)
