@@ -32,7 +32,7 @@ Para la instalación se puede seguir la siguiente guia:
 * https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
 
 Es preferible instalar las bibliotecas necesarias via Anaconda. Para instalar Anaconda,basta colocar los siguientes comandos en la terminal:
-## 2.2 MIniconda 
+## 2.2 Miniconda 
 * curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 * bash Miniconda3-latest-Linux-x86_64.sh
@@ -156,4 +156,15 @@ dependencies:
   - ipython_genutils=0.2.0
   - make=4.3
   - matplotlib-inline=0.1.2
- 
+  
+  Una vez que se tenga un archivo .yml se puede crear el ambiente siguiendo los siguientes pasos por terminal:
+  
+   * cd <carpeta donde esta el programa gui_wrf_wind.py>
+  
+	* conda activate base
+  
+	* conda env create -f archivo.yml
+  
+	* conda activate lfa
+  
+  
