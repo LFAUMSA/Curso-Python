@@ -39,25 +39,25 @@ Es preferible instalar las bibliotecas necesarias via Anaconda. Para instalar An
 
 Debe reiniciar la maquina para que los cambios sean hechos:
 
-### 2.1 Actualizar el conda
+### 2.2.1 Actualizar el conda
 
 * conda update -n base -c defaults conda
-### 2.2 Crear un nuevo ambiente virtual
+### 2.2.2 Crear un nuevo ambiente virtual
 * conda create --name <nombre_ambiente>
 * Ejemplo: creacion del ambiente llamado lfa
 
 conda create --name lfa
 
-### 2.3 ver lista de programas instalados
+### 2.2.3 ver lista de programas instalados
 
 * conda list
-### 2.4 desactivar un ambiente virtual
+### 2.2.4 desactivar un ambiente virtual
 
 * conda deactivate
 
 Al realizar lo ultimo, el usuario de ambiente virtual cambiara al ambiente normal (base)
 
-### 2.5 activar un ambiente
+### 2.2.5 activar un ambiente
 
 * conda activate <nombre_ambiente>
 
@@ -73,7 +73,7 @@ despues del comando, quedará asi:
 
 * (lfa) decker@DESKTOP-LD7TCRV:~$
 
-### 2.6 Borrar un ambiente 
+### 2.2.6 Borrar un ambiente 
 
 * conda env remove --name <nombre_ambiente>
 
@@ -81,7 +81,7 @@ Exemplo:
 
 * conda env remove --name lfa
 
-### 2.7 Instalación de programas
+### 2.2.7 Instalación de programas
 
 * conda install -c conda-forge ncl
 * conda install -c conda-forge gdal
@@ -93,17 +93,17 @@ Exemplo:
 * conda install -c conda-forge nco
 * conda install -c conda-forge wgrib2
 
-### 2.8 Instalación de una versión especifica de um programa
+### 2.2.8 Instalación de una versión especifica de um programa
 
 * conda install <nonbre_programa>=<version_programa>
 Ejemplo: Instalar la versión de cdo 1.9.9.
 
 * conda install cdo=1.9.9
-### 2.9 Actualizar una libreria 
+### 2.2.9 Actualizar una libreria 
 
 * conda update <nombre_libreria>
 
-### 2.10 desinstalar una libreria 
+### 2.2.10 desinstalar una libreria 
 
 * conda remove --force <nombre_libreria>
 
