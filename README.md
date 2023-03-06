@@ -101,7 +101,7 @@ Ejemplo: Instalar la versión de cdo 1.9.9.
 
 ## 3. Lista de bibliotecas que serán instalados
 
-Los codigos son ejecutables correctam,ente con las bibiotecas listadas abajo, basta digitar estos comandos en la terminal:
+Los codigos son ejecutables correctamente con las bibiotecas listadas abajo, basta digitar estos comandos en la terminal:
 
 * pip install matplotlib==3.4.3
 * pip install pandas==1.4.2
@@ -121,3 +121,30 @@ Los codigos son ejecutables correctam,ente con las bibiotecas listadas abajo, ba
 * pip install siphon==0.9
 * pip install metpy==1.3.0
 
+Existen varias maneras de llamar las librerias, se puede crear un archivo con extension .yml y colocar las librerias y su versión 
+
+el formato del archivo .ylm debe ser:
+
+name: lfa
+channels:
+  - conda-forge
+  - ncar
+dependencies:
+  - python=3.8.10
+  - python-dateutil=2.8.1
+  - python_abi=3.8
+  - cartopy=0.19.0.post1
+  - geographiclib=1.50
+  - make=4.3
+  - matplotlib=3.3.0
+  - metpy=1.0.1
+  - netcdf4=1.5.6 
+  - numpy=1.20.3
+  - pip=21.1.2 
+  - wrf-python=1.3.2.5
+  - xarray= 0.18.2   
+  - ipython=7.24.1
+  - ipython_genutils=0.2.0
+  - make=4.3
+  - matplotlib-inline=0.1.2
+ 
