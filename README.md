@@ -307,7 +307,9 @@ print(tk)
 
 También podemos usar la biblioteca `numpy` que nos permite hacer cálculos de forma vectorizada. Para importar un paquete hacemos
 
-```
+```PYTHON
 import numpy as np
 
 ```
+
+El `as np` significa que para cada función o clase que llamo numpy, en lugar de escribir numpy., puedo hacer np., lo que hace que escribir código sea más rápido. Luego convertimos la lista tc en un objeto de tipo numpy.ndarray
