@@ -64,11 +64,23 @@ despues del comando, quedará asi:
 
 * (lfa) decker@DESKTOP-LD7TCRV:~$
 
-### 2.6 borrar un ambiente 
+### 2.6 Borrar un ambiente 
 
 * conda env remove --name <nombre_ambiente>
 
 Exemplo:
 
 * conda env remove --name lfa
+
+### 2.7 Instalación de programas
+
+* conda install -c conda-forge ncl
+* conda install -c conda-forge gdal
+* conda install -c conda-forge cdo
+* conda install -c conda-forge imagemagick
+* conda install -c conda-forge ncview
+* conda install -c conda-forge htop
+* conda install -c conda-forge parallel
+* conda install -c conda-forge nco
+* conda install -c conda-forge wgrib2
 
