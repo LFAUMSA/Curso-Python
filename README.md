@@ -200,12 +200,13 @@ print(tk)
 ```
 308.25
 ```python
-# para converter para farenheit
+# para convertir a farenheit
 tf = (tc * 9. / 5.) + 32.
 
 print(tf)
 ```
 95.18
+	
 Importante: Una cosa importante al escribir el código es tratar de no repetir demasiado y valorar la legibilidad del código. Entonces, para no repetir el mismo comando varias veces, construyamos una función. Para definir la función, usamos el comando *def* y luego el nombre de la función, seguido de los parámetros que toma.
 ```python
 def convert_celsius_to_kelvin(value):
