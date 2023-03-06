@@ -53,9 +53,11 @@ Al realizar lo ultimo, el usuario de ambiente virtual cambiara al ambiente norma
 Ejemplo:
 
 * conda activate lfa
+* 
 Antes o ambiente era o (base).
 
 * (base) decker@DESKTOP-LD7TCRV:~$
+* 
 despues deñ comanda, quedará asi:
 
 * (lfa) decker@DESKTOP-LD7TCRV:~$
