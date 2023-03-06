@@ -188,3 +188,5 @@ dependencies:
 
     # 4.1 Librerias
 	* Numpy es una libreria dundamental para computación en Python, contiene un poderoso manejo de matrices en N dimensiones, herramientas para integrar con C/C++ y Fortran como capacidad para realizar calculos en algebra lineal, transformada de Fourier, etc.
+	
+	Vamos a comenzar viendo comandos basicos de Pthon convirtiendo datos de temeratura en escala Celsius, Farenheit e Kelvin.
