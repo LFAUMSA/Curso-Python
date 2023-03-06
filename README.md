@@ -27,3 +27,5 @@ Es preferible instalar las bibliotecas necesarias via Anaconda. Para instalar An
 ![curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh]
 
 bash Miniconda3-latest-Linux-x86_64.sh
+
+Debe reiniciar la maquina para que los cambios sean hechos:
