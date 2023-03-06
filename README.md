@@ -255,3 +255,21 @@ def convert_temp(value, input_unit, output_unit):
 
   return output
 ```
+Vamos a revisar ahora. Primeramente una conversión de 'celsius' a 'kelvin'
+
+```python
+tk = convert_temp(tc, 'celsius', 'kelvin')
+
+print(tk)
+```
+
+308.25
+
+Ahora de  'kelvin' a 'farenheit'
+
+```python
+tf = convert_temp(tk, 'kelvin', 'farenheit')
+
+print(tf)
+```
+95.18000000000004
