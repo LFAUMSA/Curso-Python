@@ -49,6 +49,7 @@ Al realizar lo ultimo, el usuario de ambiente virtual cambiara al ambiente norma
 ### 2.5 activar un ambiente
 
 * conda activate <nombre_ambiente>
+
 Ejemplo:
 
 * conda activate lfa
