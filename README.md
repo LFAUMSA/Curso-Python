@@ -273,3 +273,5 @@ tf = convert_temp(tk, 'kelvin', 'farenheit')
 print(tf)
 ```
 95.18000000000004
+
+Ahora veremos que nos dice la función `else`
