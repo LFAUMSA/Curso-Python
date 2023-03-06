@@ -166,5 +166,10 @@ dependencies:
 	* conda env create -f archivo.yml
   
 	* conda activate lfa
-  
-  
+	
+  RESULTA MUY UTIL PARA PERSONAS QUE NO QUIEREN INSTALAR NADA EN SUS PC'S O NO ESTAN FAMILIARIZADOS CON EL SISTEMA OPERATIVO LINUX USAR :
+	
+	*JUPYTER NOTEBOOKS
+	*GOOGLE COLABORATORY (COLAB)
+	
+  # clase 1
