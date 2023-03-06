@@ -274,4 +274,10 @@ print(tf)
 ```
 95.18000000000004
 
-Ahora veremos que nos dice la función `else`
+Ahora veremos que nos dice la función `else` 
+
+```python
+tk = convert_temp(tc, 'celsius', 'keuvin')
+```
+
+No conversion found from celsius to keuvin.
