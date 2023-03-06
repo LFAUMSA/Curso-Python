@@ -172,4 +172,16 @@ dependencies:
 	*JUPYTER NOTEBOOKS
 	*GOOGLE COLABORATORY (COLAB)
 	
-  # clase 1
+  # Clase 1
+  
+  En esta clase veremos los comandos basicos de python:
+  
+  * Operaciones aritmeticas simples
+  
+  * Crear funciones
+  
+  * Condicionales if/else/elif
+  
+  * Lista
+  
+  * Matrizes con NUMPY 
