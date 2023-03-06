@@ -46,4 +46,18 @@ conda create --name lfa
 
 * conda deactivate
 
-Al realizar eso, el usuario de ambiente virtual cambiara al ambiente normal (base)
+Al realizar lo ultimo, el usuario de ambiente virtual cambiara al ambiente normal (base)
+
+### 2.5 activar un ambiente
+
+* conda activate <nombre_ambiente>
+Ejemplo:
+
+* conda activate lfa
+Antes o ambiente era o (base).
+
+* (base) decker@DESKTOP-LD7TCRV:~$
+despues deñ comanda, quedará asi:
+
+* (lfa) decker@DESKTOP-LD7TCRV:~$
+
