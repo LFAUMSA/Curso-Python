@@ -159,7 +159,7 @@ dependencies:
   
   Una vez que se tenga un archivo .yml se puede crear el ambiente siguiendo los siguientes pasos por terminal:
     
-        * cd <carpeta donde esta el programa gui_wrf_wind.py>
+        cd <carpeta donde esta el programa .py>
   
 	* conda activate base
   
@@ -214,5 +214,18 @@ def convert_celsius_to_kelvin(value):
 
 def convert_celsius_to_farenheit(value):
   return (value * 9. / 5.) + 32. # transforma celsius en farenheit
+```
+
+Sugerencia: hay un acrónimo en el mundo de la programación DRY (Don't Repeat yourself) que quizás recuerde cuando esté escribiendo un código más complejo y se pregunte ¿es bueno?".
+
+Podemos simplificarlo para usar solo una función que haga todas las conversiones si verificamos las condiciones de la unidad de entrada y salida usando condicionales en python:
+
+```python
+if cond == value1:
+  (haga alguna cosa)
+elif cond == value2:
+  (haga una cosa mas)
+else:
+  (haga otra cosa)
 ```
 	
