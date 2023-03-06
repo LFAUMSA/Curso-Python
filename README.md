@@ -229,3 +229,29 @@ else:
   (haga otra cosa)
 ```
 	
+```python
+def convert_temp(value, input_unit, output_unit):
+
+  # se unidade de input celsius e output kelvin
+  if input_unit == 'celsius' and output_unit == 'kelvin':
+    output = value + 273.15
+  # senão se unidade de input celsius e output farenheit  
+  elif input_unit == 'celsius' and output_unit == 'farenheit':
+      output = (value * 9. / 5.) + 32.
+  elif input_unit == 'kelvin' and output_unit == 'celsius':
+      output = value - 273.15
+  elif input_unit == 'kelvin' and output_unit == 'farenheit':
+      output = ((value - 273.15) * 9. / 5.) + 32.
+  elif input_unit == 'farenheit' and output_unit == 'celsius':
+      output = (value - 32) * 5. / 9.
+  elif input_unit == 'farenheit' and output_unit == 'kelvin':
+      output = (value - 32) * 5. / 9. + 273.15
+  # se opção for invalida imprime uma mensagem e atribui o valor None
+  else:
+      output = None
+      # Aqui eu uso o conceito das f-strings que é uma forma simples de
+      # passar variáveis para serem renderizadas dentro de uma string
+      print(f'No conversion found from {input_unit} to {output_unit}.')
+
+  return output
+```
