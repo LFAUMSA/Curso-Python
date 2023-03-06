@@ -283,3 +283,21 @@ tk = convert_temp(tc, 'celsius', 'keuvin')
 No conversion found from celsius to keuvin.
 
 ¿Qué pasa si queremos convertir más de un valor? Podemos usar una lista para definir los valores y un `for para aplicar la función a cada uno de ellos
+
+
+```python
+# valores en celsius
+tc = [35, 22, 17, 14.5]
+
+# valores en kelvin comienza cpon una lista vacia
+tk = []
+
+for value in tc:
+    # valor es convertido de celsius a kelvin
+    output_value = convert_temp(value, 'celsius', 'kelvin')
+
+    # valor convertido y adicionado a la lista
+    tk.append(output_value)
+
+print(tk)
+```
