@@ -313,3 +313,12 @@ import numpy as np
 ```
 
 El `as np` significa que para cada función o clase que llamo numpy, en lugar de escribir numpy., puedo hacer np., lo que hace que escribir código sea más rápido. Luego convertimos la lista tc en un objeto de tipo numpy.ndarray
+
+```python
+tc_arr = np.array(tc)
+
+# aplicamos la conversión de una vez
+tk_arr = convert_temp(tc_arr, 'celsius', 'kelvin')
+
+print(tk_arr)
+```
