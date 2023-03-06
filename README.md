@@ -24,8 +24,18 @@ GRACE: https://nasagrace.unl.edu
 ## 2. Instalación de miniconda
 Es preferible instalar las bibliotecas necesarias via Anaconda. Para instalar Anaconda,basta colocar los siguientes comendas en la terminal:
 
-![curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh]
+* curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
-bash Miniconda3-latest-Linux-x86_64.sh
+* bash Miniconda3-latest-Linux-x86_64.sh
 
 Debe reiniciar la maquina para que los cambios sean hechos:
+
+### 2.1 Actualizar el conda
+
+* conda update -n base -c defaults conda
+### 2.2 Crear un nuevo ambiente virtual
+* conda create --name <nombre_ambiente>
+* 
+* Ejemplo: creacion del ambiente llamado lfa
+
+conda create --name lfa
