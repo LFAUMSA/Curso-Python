@@ -192,10 +192,26 @@ dependencies:
 	Vamos a comenzar viendo comandos basicos de Pthon convirtiendo datos de temeratura en escala Celsius, Farenheit e Kelvin.
 	
 ```python
-# valor de temperatura em celsius
+# valor de la temperatura en celsius
 tc = 35.1
-# para converter para kelvin
+# para convertir a kelvin
 tk = tc + 273.15
-
 print(tk)
 ```
+308.25
+```python
+# para converter para farenheit
+tf = (tc * 9. / 5.) + 32.
+
+print(tf)
+```
+95.18
+Importante: 
+```python
+def convert_celsius_to_kelvin(value):
+  return value + 273.15 # transforma celsius em kelvin
+
+def convert_celsius_to_farenheit(value):
+  return (value * 9. / 5.) + 32. # transforma celsius em farenheit
+```
+	
