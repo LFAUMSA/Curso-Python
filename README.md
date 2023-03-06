@@ -1,5 +1,6 @@
 # Curso-Python
 Autor: M.Sc. Decker Guzmán Zabalaga
+
 Laboratorio de Fiśica de la Atmósfera (LFA)
 ## 1. Introducción 
 Este curso tiene como objetivo enseñar Python para el publico orientado en Ciencias Atmosféricas y Ciencia de Datos. 
@@ -86,7 +87,7 @@ Exemplo:
 
 ### 2.8 Instalación de una version especifica de um programa
 
-* conda install <nome_programa>=<versão_programa>
-Ejemplo: Instalar a versión de cdo 1.9.9.
+* conda install <nonbre_programa>=<version_programa>
+Ejemplo: Instalar la versión de cdo 1.9.9.
 
 * conda install cdo=1.9.9
