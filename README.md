@@ -58,7 +58,15 @@ Antes o ambiente era o (base).
 
 * (base) decker@DESKTOP-LD7TCRV:~$
 
-despues deñ comanda, quedará asi:
+despues del comando, quedará asi:
 
 * (lfa) decker@DESKTOP-LD7TCRV:~$
+
+### 2.6 borrar un ambiente 
+
+* conda env remove --name <nombre_ambiente>
+
+Exemplo:
+
+* conda env remove --name lfa
 
