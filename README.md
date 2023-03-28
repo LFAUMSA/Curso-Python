@@ -9,7 +9,6 @@ Se realizará analisis a partir de datos de principales centros meterologicos qu
 
 Los datos utilizados serán:
 
-* Programa Queimadas: https://queimadas.dgi.inpe.br/queimadas/portal
 
 * Produto MERGE: http://ftp.cptec.inpe.br/modelos/tempo/MERGE/GPM/DAILY
 
