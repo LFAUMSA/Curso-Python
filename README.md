@@ -1,9 +1,6 @@
 # Curso-Python
 Autor: M.Sc. Decker Guzmán Zabalaga
 
-
-Ayudantes: Ludving Cano y  Alan Callau
-
 Laboratorio de Física de la Atmósfera (LFA)
 ## 1. Introducción 
 Este curso tiene como objetivo enseñar Python para el publico orientado en Ciencias Atmosféricas y Ciencia de Datos. 
